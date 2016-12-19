@@ -1,9 +1,5 @@
 # react-handsontable
 
-
-## Features
-
-
 ## Installing
 
 Using npm:
