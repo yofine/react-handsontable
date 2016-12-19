@@ -1,0 +1,65 @@
+{
+  "name": "react-handsontable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yofine/react-handsontable.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yofine/react-handsontable/issues"
+  },
+  "homepage": "https://github.com/yofine/react-handsontable#readme",
+  "dependencies": {
+    "handsontable": "^0.29.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-decorators": "^6.13.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-export-extensions": "^6.8.0",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-runtime": "^6.11.6",
+    "css-loader": "^0.26.1",
+    "es6-promise": "^3.3.1",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.9.11",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "babel-preset-stage-0"
+    ],
+    "plugins": [
+      "transform-export-extensions",
+      "transform-decorators-legacy",
+      "transform-class-properties",
+      "transform-object-rest-spread",
+      "transform-function-bind",
+      "transform-async-to-generator"
+    ]
+  }
+}
