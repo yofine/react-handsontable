@@ -1,4 +1,4 @@
-# react-handsontable
+# eact-handsontable
 
 ## Installing
 
