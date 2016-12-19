@@ -7,12 +7,12 @@ const RedLabel = props => {
   return <div style={{fontSize: '20px'}}>{props.text}</div>
 }
 
-const Avatar = props => {
-  return <img width='25' src={props.link} />
+const AvatarComponent = props => {
+  return <img width='25' src={props.value} />
 }
 
-const Numbers = props => {
-  return <span style={{color: 'green'}}>{props.num}</span>
+const LableComponent = props => {
+  return <span style={{color: `${props.color}`}}>{props.value}</span>
 
 }
 
@@ -20,19 +20,19 @@ const columns = [{
   title: '账号',
   data: 'name',
   renderer: (instance, td, row, col, prop, value, cellProperties) => {
-    return <RedLabel text={value} />
+    return <LableComponent value={value} color={'grey'} />
   }
 }, {
   title: '头像',
   data: 'avatar',
   renderer: (instance, td, row, col, prop, value, cellProperties) => {
-    return <Avatar link={value} />
+    return <AvatarComponent value={value} />
   }
 }, {
   title: '粉丝数',
   data: 'followers',
   renderer: (instance, td, row, col, prop, value, cellProperties) => {
-    return <Numbers num={value} />
+    return <LableComponent value={value} color={'green'} />
   }
 }]
 
